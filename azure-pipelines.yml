@@ -5,12 +5,12 @@
 
 trigger:
  branches:
-   - main
+ - main
  paths:
-   include:
-     - /
-   exclude:
-     - /folder1  
+  include:
+  - /
+  exclude:
+  - folder1  
 
 
 pool:
