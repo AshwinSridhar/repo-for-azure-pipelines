@@ -4,13 +4,15 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
- branches:
- - main
- paths:
+ branches: 
   include:
-  - /
-  exclude:
-  - folder1  
+    - main
+ paths:
+   exclude:
+     - folder1
+   include:
+     - / 
+
 
 
 pool:
